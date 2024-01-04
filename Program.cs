@@ -60,16 +60,31 @@ namespace shopGame
         }
         static void Town()
         {
-            Console.WriteLine("1. 상태보기\n2. 인벤토리\n3. 상점");
+            Console.WriteLine("1. 상태보기\n2. 인벤토리\n3. 상점\n0. 종료");
             Console.WriteLine("\n");
             while (true)
             {
                 Console.WriteLine("원하시는 행동을 입력해주세요.\n>>");
                 
-                choice = int.Parse(Console.ReadLine());
+                string input = Console.ReadLine();
                 Console.WriteLine("\n");
+                if (string.IsNullOrWhiteSpace(input))
+                {
+                    choice = 9999;
+                }
+                else if (int.TryParse(input, out choice))
+                {
+                }
+                else
+                {
+                    Console.WriteLine("숫자로 입력해주세요.");
+                    continue;
+                }
                 switch (choice)
                 {
+                    case 0:
+                        Console.WriteLine("종료합니다");
+                        return;
                     case 1:
                         stat();
                         break;
@@ -100,8 +115,20 @@ namespace shopGame
             {
                 Console.WriteLine("원하시는 행동을 입력해주세요.\n>>");
 
-                choice = int.Parse(Console.ReadLine());
+                string input = Console.ReadLine();
                 Console.WriteLine("\n");
+                if (string.IsNullOrWhiteSpace(input))
+                {
+                    choice = 9999;
+                }
+                else if (int.TryParse(input, out choice))
+                {
+                }
+                else
+                {
+                    Console.WriteLine("숫자로 입력해주세요.");
+                    continue;
+                }
                 switch (choice)
                 {
                     case 0:
@@ -137,8 +164,20 @@ namespace shopGame
             {
                 Console.WriteLine("원하시는 행동을 입력해주세요.\n>>");
 
-                choice = int.Parse(Console.ReadLine());
+                string input = Console.ReadLine();
                 Console.WriteLine("\n");
+                if (string.IsNullOrWhiteSpace(input))
+                {
+                    choice = 9999;
+                }
+                else if (int.TryParse(input, out choice))
+                {
+                }
+                else
+                {
+                    Console.WriteLine("숫자로 입력해주세요.");
+                    continue;
+                }
                 switch (choice)
                 {
                     case 0:
@@ -282,8 +321,20 @@ namespace shopGame
             {
                 Console.WriteLine("원하시는 행동을 입력해주세요.\n>>");
 
-                choice = int.Parse(Console.ReadLine());
+                string input = Console.ReadLine();
                 Console.WriteLine("\n");
+                if (string.IsNullOrWhiteSpace(input))
+                {
+                    choice = 9999;
+                }
+                else if (int.TryParse(input, out choice))
+                {
+                }
+                else
+                {
+                    Console.WriteLine("숫자로 입력해주세요.");
+                    continue;
+                }
                 switch (choice)
                 {
                     case 0:
@@ -346,8 +397,20 @@ namespace shopGame
             {
                 Console.WriteLine("원하시는 행동을 입력해주세요.\n>>");
 
-                choice = int.Parse(Console.ReadLine());
+                string input = Console.ReadLine();
                 Console.WriteLine("\n");
+                if (string.IsNullOrWhiteSpace(input))
+                {
+                    choice = 9999;
+                }
+                else if (int.TryParse(input, out choice))
+                {
+                }
+                else
+                {
+                    Console.WriteLine("숫자로 입력해주세요.");
+                    continue;
+                }
                 switch (choice)
                 {
                     case 0:
