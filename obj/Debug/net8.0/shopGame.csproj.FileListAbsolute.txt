@@ -1,0 +1,15 @@
+D:\coding\ShopGame\shopGame\bin\Debug\net8.0\shopGame.exe
+D:\coding\ShopGame\shopGame\bin\Debug\net8.0\shopGame.deps.json
+D:\coding\ShopGame\shopGame\bin\Debug\net8.0\shopGame.runtimeconfig.json
+D:\coding\ShopGame\shopGame\bin\Debug\net8.0\shopGame.dll
+D:\coding\ShopGame\shopGame\bin\Debug\net8.0\shopGame.pdb
+D:\coding\ShopGame\shopGame\obj\Debug\net8.0\shopGame.GeneratedMSBuildEditorConfig.editorconfig
+D:\coding\ShopGame\shopGame\obj\Debug\net8.0\shopGame.AssemblyInfoInputs.cache
+D:\coding\ShopGame\shopGame\obj\Debug\net8.0\shopGame.AssemblyInfo.cs
+D:\coding\ShopGame\shopGame\obj\Debug\net8.0\shopGame.csproj.CoreCompileInputs.cache
+D:\coding\ShopGame\shopGame\obj\Debug\net8.0\shopGame.sourcelink.json
+D:\coding\ShopGame\shopGame\obj\Debug\net8.0\shopGame.dll
+D:\coding\ShopGame\shopGame\obj\Debug\net8.0\refint\shopGame.dll
+D:\coding\ShopGame\shopGame\obj\Debug\net8.0\shopGame.pdb
+D:\coding\ShopGame\shopGame\obj\Debug\net8.0\shopGame.genruntimeconfig.cache
+D:\coding\ShopGame\shopGame\obj\Debug\net8.0\ref\shopGame.dll
