@@ -71,6 +71,7 @@ namespace shopGame
                 if (string.IsNullOrWhiteSpace(input))
                 {
                     choice = 9999;
+                    continue;
                 }
                 else if (int.TryParse(input, out choice))
                 {
@@ -120,6 +121,7 @@ namespace shopGame
                 if (string.IsNullOrWhiteSpace(input))
                 {
                     choice = 9999;
+                    continue;
                 }
                 else if (int.TryParse(input, out choice))
                 {
@@ -169,6 +171,7 @@ namespace shopGame
                 if (string.IsNullOrWhiteSpace(input))
                 {
                     choice = 9999;
+                    continue;
                 }
                 else if (int.TryParse(input, out choice))
                 {
@@ -326,6 +329,7 @@ namespace shopGame
                 if (string.IsNullOrWhiteSpace(input))
                 {
                     choice = 9999;
+                    continue;
                 }
                 else if (int.TryParse(input, out choice))
                 {
@@ -402,6 +406,7 @@ namespace shopGame
                 if (string.IsNullOrWhiteSpace(input))
                 {
                     choice = 9999;
+                    continue;
                 }
                 else if (int.TryParse(input, out choice))
                 {
